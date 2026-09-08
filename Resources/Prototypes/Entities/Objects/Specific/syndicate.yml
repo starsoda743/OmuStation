@@ -30,6 +30,18 @@
   - type: Tag
     tags:
     - Telecrystal
+  # Omu start
+  - type: Edible
+    delay: 0.6
+  - type: BadFood
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 1
+        reagents:
+        - ReagentId: Telecrystal
+          Quantity: 1
+  # Omu end
 
 - type: entity
   parent: Telecrystal

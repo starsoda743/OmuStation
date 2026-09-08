@@ -42,3 +42,8 @@
   id: awebo
   flavorType: Complex
   description: flavor-complex-awebo
+
+- type: flavor
+  id: telecrystal
+  flavorType: Complex
+  description: flavor-complex-telecrystal

@@ -286,3 +286,17 @@
         - !type:ReagentCondition
           reagent: JuiceThatMakesYouAwebo
           min: 50
+
+- type: reagent
+  id: Telecrystal
+  name: reagent-name-telecrystal
+  desc: reagent-desc-telecrystal
+  flavor: telecrystal
+  contrabandSeverity: Syndicate
+  physicalDesc: reagent-physical-desc-crystalline
+  color: "#AA0000"
+  metabolisms:
+    Food:
+      effects:
+      - !type:SatiateHunger
+        factor: 0
